@@ -5,3 +5,6 @@ This is a C# api wrapper for the [Sunlight Foundation Congress API](https://sunl
 
 ## Nuget
 **TODO**
+
+## .Net Core
+**Coming as soon as there is broader support for it with common libraries, basically until I plan to move one of my projects to it.**

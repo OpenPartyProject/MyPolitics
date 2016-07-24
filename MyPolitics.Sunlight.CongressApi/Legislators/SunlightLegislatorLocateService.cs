@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using Newtonsoft.Json;
 using RestSharp;
 
@@ -23,6 +24,11 @@ namespace MyPolitics.Sunlight.CongressApi.Legislators
             if (!string.IsNullOrWhiteSpace(options.ZipCode))
             {
                 request.AddQueryParameter("zip", options.ZipCode);
+            }
+            else if (options.Latitude.HasValue && options.Longitude.HasValue)
+            {
+                request.AddQueryParameter("latitude", options.Latitude.ToString());
+                request.AddQueryParameter("longitude", options.Longitude.ToString());
             }
 
             var result = await _client.ExecuteTaskAsync(request);
