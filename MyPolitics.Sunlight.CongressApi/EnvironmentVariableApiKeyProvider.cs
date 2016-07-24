@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Threading.Tasks;
 
-namespace MyPolitics.CongressApi
+namespace MyPolitics.Sunlight.CongressApi
 {
     public class EnvironmentVariableApiKeyProvider : StringApiKeyProvider
     {

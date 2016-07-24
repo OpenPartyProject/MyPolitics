@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using RestSharp.Serializers;
 
-namespace MyPolitics
+namespace MyPolitics.Sunlight.CongressApi
 {
     /// <summary>
     /// Default JSON serializer for request bodies

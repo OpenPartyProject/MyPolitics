@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace MyPolitics.CongressApi
+namespace MyPolitics.Sunlight.CongressApi
 {
     public interface IApiKeyProvider
     {

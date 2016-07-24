@@ -1,4 +1,4 @@
-﻿namespace MyPolitics.CongressApi.Legislators
+﻿namespace MyPolitics.Sunlight.CongressApi.Legislators
 {
     public class LegislatorSearchResult
     {

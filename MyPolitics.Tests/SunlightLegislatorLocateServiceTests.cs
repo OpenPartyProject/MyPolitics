@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using MyPolitics.CongressApi.Legislators;
+using MyPolitics.Sunlight.CongressApi.Legislators;
 using NUnit.Framework;
 using RestSharp;
 

@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace MyPolitics.CongressApi.Legislators
+namespace MyPolitics.Sunlight.CongressApi.Legislators
 {
     public interface ILegislatorSearchService
     {

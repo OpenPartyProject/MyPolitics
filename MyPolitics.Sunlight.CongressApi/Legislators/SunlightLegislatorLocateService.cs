@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using RestSharp;
 
-namespace MyPolitics.CongressApi.Legislators
+namespace MyPolitics.Sunlight.CongressApi.Legislators
 {
     public class SunlightLegislatorLocateService : ILegislatorLocateService
     {

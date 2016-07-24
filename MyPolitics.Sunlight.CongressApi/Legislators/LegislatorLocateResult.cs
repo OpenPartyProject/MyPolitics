@@ -1,7 +1,6 @@
-﻿using System.Collections.Generic;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
-namespace MyPolitics.CongressApi.Legislators
+namespace MyPolitics.Sunlight.CongressApi.Legislators
 {
     public class LegislatorLocateResult
     {

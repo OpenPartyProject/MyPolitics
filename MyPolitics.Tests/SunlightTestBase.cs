@@ -1,4 +1,4 @@
-using MyPolitics.CongressApi;
+using MyPolitics.Sunlight.CongressApi;
 
 namespace MyPolitics.Tests
 {
