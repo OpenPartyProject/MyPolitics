@@ -1,0 +1,10 @@
+language: csharp
+solution: MyPolitics.sln
+
+install:
+  - nuget restore MyPolitics.sln
+  - nuget install NUnit.Runners -Version 3.2.1 -OutputDirectory testrunner
+
+script:
+  - xbuild /p:Configuration=Release /p:TargetFrameworkVersion="v4.5" MyPolitics.sln
+  - mono ./testrunner/NUnit.ConsoleRunner.3.2.1/tools/nunit3-console.exe ./MyPolitics.Tests/bin/Release/MyPolitics.Tests.dll
