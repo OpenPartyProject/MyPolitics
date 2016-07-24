@@ -10,8 +10,7 @@ namespace MyPolitics.Tests
         [Test]
         public async Task LocateBy_BoulderZipCode_Returns()
         {
-            IRestClient client = new RestClient("https://congress.api.sunlightfoundation.com/");
-            var sut = new SunlightLegislatorLocateService(client, TestApiKeyProvider);
+            var sut = new SunlightLegislatorLocateService(TestClient, TestApiKeyProvider);
             var result = await sut.LocateBy(new LegislatorsLocateOptions
             {
                 ZipCode = "80301"
