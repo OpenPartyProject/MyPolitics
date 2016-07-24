@@ -4,7 +4,7 @@ namespace MyPolitics.Sunlight.CongressApi.Legislators
 {
     public class LegislatorSearchOptions
     {
-        /*
+        /* todo: add last of search options for legislators to options
          * in_office
 Whether a legislator is currently holding elected office in Congress.
 * party
